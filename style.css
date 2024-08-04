@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+header {
+    background: url('image2.jpg') rgb(238, 230, 219) center center;
+    background-size: cover;
+    color: rgb(148, 234, 255);
+    text-shadow: 2px 2px 4px rgba(173, 170, 96, 0.5);
+}
+abbr{
+    color: #a2af11;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #343a40;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+.button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #ab8d23;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #dec2c2;
+        }
+
+        .button:hover {background-color: #8abd6d}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
